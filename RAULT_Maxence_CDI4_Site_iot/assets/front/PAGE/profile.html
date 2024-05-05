@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/profil.css">
+    <title>profil</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">Harry Pottcard</h1>
+      <div class="menu-icon" id="icons">&#9776;</div>
+      <div class="close-icon" id="close-icon">&#9747;</div>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="./Cartes.html">Cartes</a></li>
+
+          <li><a href="#">Booster</a></li>
+          
+          <li><a href="#" >Votre profil</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="profile">
+      <h1 class="profile-title">Profile</h1>
+      <div class="tabs">
+        <button class="tab-btn active" data-tab-target="#tab-1">Votre profil</button>
+        <button class="tab-btn" data-tab-target="#tab-2">Vos cartes</button>
+
+    </div>
+    <div class="tab-content">
+        <div class="tab-pane active" id="tab-1">
+            <h2>Votre profil</h2>
+            <div class="profile-container">
+              <img src="/assets/Image cartes Harry potter/Compte.jpg" alt="Compte">
+              <div class="profile-info">
+                <h2 class="profile-name">Name: </h2>
+                <p id="name"></p>
+                
+                <p class="profile-email">Email: <p id="email"></p> </p>
+                
+                
+                <p class="profile-password">Password: *******</p>
+              </div>
+              
+            </div>
+
+            
+        </div>
+        <div class="tab-pane" id="tab-2">
+            <h2>Vos cartes</h2>
+            <p>Aucune cartes disponibe</p>
+        </div>
+        
+    </div>
+      
+        
+    </main>
+    <footer class="footer">
+      <div class="footer-links">
+        <h3>Liens utiles</h3>
+        <ul>
+          <li><a href="#">Conditions d'utilisation</a></li>
+          <li><a href="#">Politique de confidentialité</a></li>
+          <li><a href="#">Informations de contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h3>Suivez-nous</h3>
+        <a href="#"><img src="/assets/Image cartes Harry potter/facebook.png" alt="Facebook" class="logo-externe"/></a>
+        <a href="#"><img src="/assets/Image cartes Harry potter/twitter.png " alt="Twitter" class="logo-externe"/></a>
+        <a href="#"><img src="/assets/Image cartes Harry potter/instagram.png" alt="Instagram" class="logo-externe"/></a>
+    </footer>
+
+
+    <script src="../js/main_profile.js"></script>
+  </body>
+</html>

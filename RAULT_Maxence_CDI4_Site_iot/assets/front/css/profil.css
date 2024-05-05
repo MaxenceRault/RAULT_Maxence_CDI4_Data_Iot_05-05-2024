@@ -1,0 +1,70 @@
+.profile {
+  padding: 20px;
+}
+
+.profile-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+    
+  width: 50%;
+}
+
+.profile-name,
+.profile-email {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-edit {
+  width: 50%;
+  text-align: right;
+}
+
+.profile-edit-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tab-btn.active {
+  background-color: #555;
+}
+
+.tab-content {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
